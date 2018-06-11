@@ -1,0 +1,11 @@
+{
+  "name": "sai-system",
+  "version": "1.0.0",
+  "description": "SAI system for course work",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Pavel Keyzik",
+  "license": "MIT"
+}
