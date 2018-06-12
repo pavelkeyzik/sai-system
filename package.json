@@ -4,8 +4,13 @@
   "description": "SAI system for course work",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "start:dev": "NODE_ENV=dev node index.js",
+    "start:prod": "NODE_ENV=prod node index.js"
   },
   "author": "Pavel Keyzik",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.0.0"
+  }
 }
