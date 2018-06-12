@@ -1,5 +1,5 @@
 const http = require('http');
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 8080;
 
 if(process.env.NODE_ENV !== 'prod') {
   require('dotenv').load();
