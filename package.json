@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "start:dev": "NODE_ENV=dev node index.js",
+    "start:dev": "NODE_ENV=dev nodemon index.js",
     "start:prod": "NODE_ENV=prod node index.js"
   },
   "author": "Pavel Keyzik",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^6.0.0",
-    "eslint": "^4.19.1"
+    "eslint": "^4.19.1",
+    "nodemon": "^1.17.5"
   },
   "devDependencies": {
     "eslint-config-standard": "^11.0.0",
